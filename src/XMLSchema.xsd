@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="canciones">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cancion" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="duracion" type="xs:string"/>
+                            <xs:element name="anio" type="xs:integer"/>
+                            <xs:element name="titulo" type="xs:string"/>
+                            <xs:element name="compositores">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="compositor" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nombresCompositor" type="xs:string"/>
+                                                    <xs:element name="apellidosCompositor" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="productores">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="productor" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nombresProductor" type="xs:string"/>
+                                                    <xs:element name="apellidosProductor" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="sello" type="xs:string"/>
+                            <xs:element name="artista" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

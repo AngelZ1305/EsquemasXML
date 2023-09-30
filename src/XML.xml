@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE canciones SYSTEM "DTD.dtd">
+<canciones>
+    <cancion>
+        <duracion>4:47</duracion>
+        <anio>2008</anio>
+        <titulo>Give it 2 me</titulo>
+        <compositores>
+            <compositor>
+                <nombresCompositor>Pharrell</nombresCompositor>
+                <apellidosCompositor>Williams</apellidosCompositor>
+            </compositor>
+        </compositores>
+        <productores>
+            <productor>
+                <nombresProductor>Pharrell</nombresProductor>
+                <apellidosProductor>Williams</apellidosProductor>
+            </productor>
+        </productores>
+        <sello>Warner Bros. Records</sello>
+        <artista>Madonna</artista>
+    </cancion>
+    <cancion>
+        <duracion>4:08</duracion>
+        <anio>2016</anio>
+        <titulo>Runaway</titulo>
+        <compositores>
+            <compositor>
+                <nombresCompositor>Aurora</nombresCompositor>
+                <apellidosCompositor>Aksnes</apellidosCompositor>
+            </compositor>
+            <compositor>
+                <nombresCompositor>Magnus</nombresCompositor>
+                <apellidosCompositor>Skylstad</apellidosCompositor>
+            </compositor>
+        </compositores>
+        <productores>
+            <productor>
+                <nombresProductor>Odd Martin</nombresProductor>
+                <apellidosProductor>Skålnes</apellidosProductor>
+            </productor>
+            <productor>
+                <nombresProductor>Magnus</nombresProductor>
+                <apellidosProductor>Skylstad</apellidosProductor>
+            </productor>
+        </productores>
+        <sello>Glassnote</sello>
+        <artista>Aurora</artista>
+    </cancion>
+    <cancion>
+        <duracion>3:09</duracion>
+        <anio>2023</anio>
+        <titulo>Self Love</titulo>
+        <compositores>
+            <compositor>
+                <nombresCompositor>Leland Tyler</nombresCompositor>
+                <apellidosCompositor>Wayne</apellidosCompositor>
+            </compositor>
+            <compositor>
+                <nombresCompositor>Coi</nombresCompositor>
+                <apellidosCompositor>Leray</apellidosCompositor>
+            </compositor>
+        </compositores>
+        <productores>
+            <productor>
+                <nombresProductor>Leland Tyler</nombresProductor>
+                <apellidosProductor>Wayne</apellidosProductor>
+            </productor>
+            <productor>
+                <nombresProductor>Andre Eric</nombresProductor>
+                <apellidosProductor>Proctor</apellidosProductor>
+            </productor>
+            <productor>
+                <nombresProductor>Johan</nombresProductor>
+                <apellidosProductor>Lenox</apellidosProductor>
+            </productor>
+        </productores>
+        <sello>Republic Records</sello>
+        <artista>Metro Boomin y Coi Leray</artista>
+    </cancion>
+</canciones>
